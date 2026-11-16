@@ -1,0 +1,29 @@
+{
+  "institution": "Università Commerciale Luigi Bocconi",
+  "organisationID": "999838850",
+  "source": "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip",
+  "retrievedUTC": "2026-10-29T15:01:01Z",
+  "httpLastModified": "Thu, 08 Oct 2026 15:43:14 GMT",
+  "archiveSHA256": "b9919057b77e897a884bbbd82005db1e25defd56f7c7be9e97d6ef9495ace6c4",
+  "archiveProjectFileTimestamp": [
+    2026,
+    10,
+    5,
+    19,
+    41,
+    44
+  ],
+  "nameMatches": {
+    "999838850 | UNIVERSITA COMMERCIALE LUIGI BOCCONI": 68
+  },
+  "projectCount": 68,
+  "missingNetContributions": 0,
+  "nameMatchOutsidePIC": [],
+  "csvRepairs": [
+    {
+      "file": "project.csv",
+      "projectID": "101136502",
+      "repair": "Rejoined unescaped objective semicolons; validated trailing date, RCN and DOI."
+    }
+  ]
+}
