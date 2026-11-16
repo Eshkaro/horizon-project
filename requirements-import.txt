@@ -1,0 +1,2 @@
+# Optional: needed only to import a new Commission XLSX chart export.
+openpyxl>=3.1,<4

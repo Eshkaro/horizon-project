@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+.openai/
+dist/
+data/cordis-HORIZONprojects-csv.zip
+work/
