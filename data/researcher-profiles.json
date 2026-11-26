@@ -1,0 +1,107 @@
+[
+  {
+    "id": "bosetti",
+    "name": "Valentina Bosetti",
+    "area": "Climate and environmental economics",
+    "summary": "Studies climate change economics, energy transitions and environmental policy.",
+    "keywords": [
+      "climate",
+      "energy",
+      "environment",
+      "decarbonisation",
+      "policy"
+    ],
+    "source": "https://economics.unibocconi.eu/faculty/valentina-bosetti",
+    "example": "How can green urban spaces improve climate resilience and reduce inequality?",
+    "roles": [
+      "policy",
+      "urban",
+      "environment"
+    ],
+    "verifiedDate": "2026-11-26"
+  },
+  {
+    "id": "profeta",
+    "name": "Paola Profeta",
+    "area": "Public economics and gender equality",
+    "summary": "Studies gender equality, public economics, taxation and welfare policies.",
+    "keywords": [
+      "gender",
+      "inequality",
+      "policy",
+      "welfare",
+      "education"
+    ],
+    "source": "https://www.sdabocconi.it/en/faculty-research/faculty-knowledge/paola-profeta/",
+    "example": "Evaluate whether inclusive access to green urban spaces reduces gender and social inequalities.",
+    "roles": [
+      "policy",
+      "survey",
+      "urban"
+    ],
+    "verifiedDate": "2026-11-26"
+  },
+  {
+    "id": "gennaioli",
+    "name": "Nicola Gennaioli",
+    "area": "Behavioural economics and finance",
+    "summary": "Studies psychologically grounded economic behaviour, with applications to finance, macroeconomics and politics.",
+    "keywords": [
+      "finance",
+      "behaviour",
+      "decision",
+      "economic",
+      "risk"
+    ],
+    "source": "https://giving.unibocconi.it/en/fondazione-romeo-ed-enrica-invernizzi-chair-behavioral-economics-and-finance",
+    "example": "Understand household financial decisions and investment in the green energy transition.",
+    "roles": [
+      "survey",
+      "energy",
+      "policy"
+    ],
+    "verifiedDate": "2026-11-26"
+  },
+  {
+    "id": "percoco",
+    "name": "Marco Percoco",
+    "area": "Infrastructure and regional development",
+    "summary": "Studies infrastructure economics, sustainable mobility, energy service regulation and real estate development.",
+    "keywords": [
+      "urban",
+      "transport",
+      "infrastructure",
+      "energy",
+      "development"
+    ],
+    "source": "https://sps.unibocconi.eu/faculty/marco-percoco",
+    "example": "Measure the effects of urban green infrastructure on wellbeing, mobility and social inclusion.",
+    "roles": [
+      "urban",
+      "environment",
+      "survey"
+    ],
+    "verifiedDate": "2026-11-26"
+  },
+  {
+    "id": "tarricone",
+    "name": "Rosanna Tarricone",
+    "area": "Health economics and technology assessment",
+    "summary": "Studies health economics, health policy and the evaluation of medical technologies.",
+    "keywords": [
+      "health",
+      "medical",
+      "evaluation",
+      "policy",
+      "technology"
+    ],
+    "source": "https://www.sdabocconi.it/en/faculty-research/faculty-knowledge/rosanna-tarricone/",
+    "example": "Assess the health and economic benefits of access to green spaces for vulnerable urban populations.",
+    "roles": [
+      "health",
+      "urban",
+      "survey"
+    ],
+    "verifiedDate": "2026-11-26"
+  }
+]

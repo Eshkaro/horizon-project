@@ -31,6 +31,8 @@ node --check benchmarks.js
 node tests/benchmark.test.cjs
 ```
 
+For consortium matching, edit `matcher.template.html`, `matcher.css`, `matcher.js` and `matcher-engine.js`; see `MATCHING.md` for data provenance. The same builder regenerates `matcher.html`. Also run `node tests/matcher.test.cjs`.
+
 Preview in the browser, then commit and push:
 
 ```sh
@@ -50,3 +52,7 @@ Preserve original source exports and provenance. Describe the retrieval date and
 ## Live website
 
 The current site is hosted through Sites at https://bocconi-horizon-observatory.lacyankle4.chatgpt.site/ . Pushing or merging on GitHub does not automatically update that site. Eshkaro should publish the reviewed, merged version through the existing Sites project. Hosting configuration and credentials are deliberately excluded from this team repository. Do not create a replacement site unless requested.
+
+## Alternative hosting: GitHub Pages
+
+The optional “Publish GitHub Pages” workflow is manually triggered; commits do not automatically publish. After review and merge, enable **Settings → Pages → Source: GitHub Actions**, then run the workflow from **Actions** on the reviewed branch. It tests the project and publishes only `_site/`, built by `python3 scripts/build_static.py`. It does not contain hosting credentials or Sites identity. The existing Sites website is a separate deployment.

@@ -11,6 +11,8 @@ cd horizon-project
 
 A local, reproducible portfolio baseline for the HEC Horizon Europe capstone. The interface contains real CORDIS records, not example projects. No API key, account or third-party JavaScript packages are required. There is no LLM or automated call recommendation feature yet.
 
+The consortium matcher is at `matcher.html`: choose one of five verified Bocconi researchers or enter your own research profile, describe an idea, specify missing expertise and shortlist organisations with cited project evidence. See [MATCHING.md](MATCHING.md) for scoring, sources, limitations and reproduction. Historical benchmark scores and partner evidence scores are not individual winning probabilities.
+
 ## Open it
 
 Double-click `index.html` to use the self-contained dashboard in Safari or Chrome. If the Codex embedded browser restricts local files, use the local server below. To develop in VS Code, select **File → Open Folder** and open the cloned `horizon-project` folder.

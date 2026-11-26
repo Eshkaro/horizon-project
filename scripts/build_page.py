@@ -12,6 +12,9 @@ def build_page():
         script = (ROOT / name).read_text().replace('</script', '<\\/script')
         html = html.replace('<script src="' + name + '"></script>', '<script>' + script + '</script>')
     (ROOT / 'index.html').write_text(html)
+    if (ROOT / 'matcher.template.html').exists():
+        from build_matcher_page import build_matcher_page
+        build_matcher_page()
 
 
 if __name__ == '__main__':
