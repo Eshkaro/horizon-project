@@ -19,7 +19,10 @@ jobs:
           node --check app.js
           node --check benchmarks.js
           node tests/benchmark.test.cjs
+          node --check matcher-engine.js
+          node --check matcher.js
+          node tests/matcher.test.cjs
       - name: Check generated dashboard is current
         run: |
           python3 scripts/build_page.py
-          git diff --exit-code -- index.html
+          git diff --exit-code -- index.html matcher.html
